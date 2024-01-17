@@ -12,7 +12,7 @@ xxxx
 xxxxx
 */
 let string = '';
-for (let j = 0; j < 5; j++) {
+for (let j = 0; j < 20; j++) {
     string += 'x';
     console.log(`${string}`);
 }
