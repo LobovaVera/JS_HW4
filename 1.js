@@ -10,11 +10,11 @@
 10 – четное число
 */
 
-// function showOddEven() {
-//     console.log(`0 – это ноль`);
-//     for (let i = 2; i < 11; i += 2) {
-//         console.log(`${i - 1} - нечетное число`);
-//         console.log(`${i} - четное число`);
-//     }
-// }
-// showOddEven();
+function showOddEven() {
+    console.log(`0 – это ноль`);
+    for (let i = 2; i < 11; i += 2) {
+        console.log(`${i - 1} - нечетное число`);
+        console.log(`${i} - четное число`);
+    }
+}
+showOddEven();

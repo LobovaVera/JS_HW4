@@ -8,6 +8,6 @@
 */
 
 
-// const arr = [1, 2, 3, 4, 5, 6, 7];
-// const newArr = [...arr.splice(0, 2), 100, ...arr.splice(3, 2)];
-// console.log(newArr);
+const arr = [1, 2, 3, 4, 5, 6, 7];
+const newArr = [...arr.splice(0, 2), 100, ...arr.splice(3, 2)];
+console.log(newArr);

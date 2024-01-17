@@ -11,8 +11,8 @@ xxx
 xxxx
 xxxxx
 */
-// let string = '';
-// for (let j = 0; j < 5; j++) {
-//     string += 'x';
-//     console.log(`${string}`);
-// }
+let string = '';
+for (let j = 0; j < 5; j++) {
+    string += 'x';
+    console.log(`${string}`);
+}

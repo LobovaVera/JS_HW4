@@ -14,34 +14,34 @@
 не окажется, значит нужно будет вывести пустой массив.
 */
 
-// const arr = [];
-// for (let i = 0; i < 5; i++) {
-//     arr.push(Math.floor(Math.random() * 10));
-// }
-// console.log(arr)
-// //1
-// console.log(arr.reduce((sum, num) => { return num + sum }, 0));
-// //2
-// function getMinValue(array) {
-//     let min = array[0];
-//     for (let k = 1; k < array.length; k++) {
-//         if (array[k] < min) {
-//             min = array[k];
-//         }
-//     }
-//     return min;
-// }
+const arr = [];
+for (let i = 0; i < 5; i++) {
+    arr.push(Math.floor(Math.random() * 10));
+}
+console.log(arr)
+//1
+console.log(arr.reduce((sum, num) => { return num + sum }, 0));
+//2
+function getMinValue(array) {
+    let min = array[0];
+    for (let k = 1; k < array.length; k++) {
+        if (array[k] < min) {
+            min = array[k];
+        }
+    }
+    return min;
+}
 
-// console.log(getMinValue(arr));
-// //3
-// function getNumberIndexNewArray(array, number = 3) {
-//     const resArr = [];
-//     for (let j = 0; j < array.length; j++) {
-//         if (array[j] === number) {
-//             resArr.push(j);
-//         }
-//     }
-//     return resArr;
-// }
-// // const arri = [2, 3, 4, 5, 3, 4, 3, 3, 3];
-// console.log(getNumberIndexNewArray(arr, 3));
+console.log(getMinValue(arr));
+//3
+function getNumberIndexNewArray(array, number = 3) {
+    const resArr = [];
+    for (let j = 0; j < array.length; j++) {
+        if (array[j] === number) {
+            resArr.push(j);
+        }
+    }
+    return resArr;
+}
+// const arri = [2, 3, 4, 5, 3, 4, 3, 3, 3];
+console.log(getNumberIndexNewArray(arr, 3));
